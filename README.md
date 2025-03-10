@@ -27,7 +27,7 @@
    1️⃣ **ExtractEmail_MarkDown** - 이메일을 Markdown 파일로 변환
    2️⃣ **ExtractEmail_html** - 이메일을 HTML 파일로 변환
 
-![저장 옵션 선택](img/저장옵션 선택.png)
+![저장 옵션 선택](img/저장옵션%20선택.png)
 
 ---
 
@@ -67,12 +67,12 @@
 
 ### 📌 변환 결과 예시
 ✅ **Markdown 변환 결과**
-![Markdown 변환 결과](img/md변환 결과(markdown)_1(blur).png)
-![Markdown 변환 결과](img/md변환 결과(markdown)_2(blur).png)
+![Markdown 변환 결과](img/md변환%20결과(markdown)_1(blur).png)
+![Markdown 변환 결과](img/md변환%20결과(markdown)_2(blur).png)
 
 ✅ **HTML 변환 결과**
-![HTML 변환 결과](img/md변환 결과(html)_1(blur).png)
-![HTML 변환 결과](img/md변환 결과(html)_2(blur).png)
+![HTML 변환 결과](img/md변환%20결과(html)_1(blur).png)
+![HTML 변환 결과](img/md변환%20결과(html)_2(blur).png)
 
 ---
 
@@ -83,7 +83,6 @@
 
 ## 🔗 참고한 프로젝트
 이 프로젝트는 다음 솔루션을 참고하여 개선되었습니다:
-- [Outlook to Obsidian Macro: Save emails as Markdown notes in one click](https://forum.obsidian.md/t/outlook-to-obsidian-macro-save-emails-as-markdown-notes-in-one-click/95689)
 - [machado-t/Outlook2Obsidian](https://github.com/machado-t/Outlook2Obsidian)
 - [tallguyjenks/Obsidian-For-Business](https://github.com/tallguyjenks/Obsidian-For-Business)
 
