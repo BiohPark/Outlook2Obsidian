@@ -29,7 +29,7 @@
    
    2️⃣ **ExtractEmail_html** - 이메일을 HTML 파일로 변환
 
-![저장 옵션 선택](img/저장옵션 선택.png)
+![저장 옵션 선택](img/저장옵션_선택.png)
 
 ---
 
@@ -63,18 +63,19 @@
 
 ## 🛠 사용 방법
 1️⃣ Outlook에서 변환할 이메일을 선택합니다.
+
 2️⃣ `Alt + F8`을 누르고 원하는 변환 함수 실행:
    - `ExtractEmail_MarkDown` → Markdown 변환 후 Obsidian에서 열기
    - `ExtractEmail_html` → HTML 형식으로 변환 후 저장
 
 ### 📌 변환 결과 예시
 ✅ **Markdown 변환 결과**
-![Markdown 변환 결과](img/md변환 결과(markdown)_1(blur).png)
-![Markdown 변환 결과](img/md변환 결과(markdown)_2(blur).png)
+![Markdown 변환 결과](img/md변환_결과(markdown)_1(blur).png)
+![Markdown 변환 결과](img/md변환_결과(markdown)_2(blur).png)
 
 ✅ **HTML 변환 결과**
-![HTML 변환 결과](img/md변환 결과(html)_1(blur).png)
-![HTML 변환 결과](img/md변환 결과(html)_2(blur).png)
+![HTML 변환 결과](img/md변환_결과(html)_1(blur).png)
+![HTML 변환 결과](img/md변환_결과(html)_2(blur).png)
 
 ---
 
