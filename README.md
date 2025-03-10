@@ -24,7 +24,9 @@
 
 ✅ **두 가지 변환 기능 지원**
    `Alt + F8`을 누르면 아래 두 가지 함수가 실행 가능:
+   
    1️⃣ **ExtractEmail_MarkDown** - 이메일을 Markdown 파일로 변환
+   
    2️⃣ **ExtractEmail_html** - 이메일을 HTML 파일로 변환
 
 ---
