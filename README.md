@@ -63,7 +63,6 @@
 
 ## 🛠 사용 방법
 1️⃣ Outlook에서 변환할 이메일을 선택합니다.
-
 2️⃣ `Alt + F8`을 누르고 원하는 변환 함수 실행:
    - `ExtractEmail_MarkDown` → Markdown 변환 후 Obsidian에서 열기
    - `ExtractEmail_html` → HTML 형식으로 변환 후 저장
