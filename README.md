@@ -1,5 +1,3 @@
-# Outlook2tobsidian
-
 # Outlook to Obsidian Markdown Converter
 
 ## 🔹 프로젝트 개요
@@ -9,25 +7,27 @@
 
 그래서 직접 **이메일을 Markdown 파일로 변환하고 Obsidian에서 바로 활용할 수 있도록 개발**했습니다!
 
+![메일 원본](img/메일원본(blur).png)
+
 ---
 
 ## 🚀 주요 기능
 ✅ **이메일을 Markdown 형식으로 변환**
    - 발신자, 수신자, 날짜 등의 메타데이터를 자동으로 포함합니다.
    - 본문을 Markdown 형식으로 변환하며, 표, 이미지, 첨부파일을 지원합니다.
-   
+
 ✅ **Obsidian과 즉각적인 통합**
    - 변환된 Markdown 파일을 Obsidian에서 자동으로 열어 기존 노트와 연결할 수 있습니다.
-   
+
 ✅ **첨부파일 관리 기능**
    - 이메일의 첨부파일을 지정된 폴더에 저장하여 체계적인 관리가 가능합니다.
 
 ✅ **두 가지 변환 기능 지원**
    `Alt + F8`을 누르면 아래 두 가지 함수가 실행 가능:
-   
    1️⃣ **ExtractEmail_MarkDown** - 이메일을 Markdown 파일로 변환
-   
    2️⃣ **ExtractEmail_html** - 이메일을 HTML 파일로 변환
+
+![저장 옵션 선택](img/저장옵션 선택.png)
 
 ---
 
@@ -64,6 +64,15 @@
 2️⃣ `Alt + F8`을 누르고 원하는 변환 함수 실행:
    - `ExtractEmail_MarkDown` → Markdown 변환 후 Obsidian에서 열기
    - `ExtractEmail_html` → HTML 형식으로 변환 후 저장
+
+### 📌 변환 결과 예시
+✅ **Markdown 변환 결과**
+![Markdown 변환 결과](img/md변환 결과(markdown)_1(blur).png)
+![Markdown 변환 결과](img/md변환 결과(markdown)_2(blur).png)
+
+✅ **HTML 변환 결과**
+![HTML 변환 결과](img/md변환 결과(html)_1(blur).png)
+![HTML 변환 결과](img/md변환 결과(html)_2(blur).png)
 
 ---
 
