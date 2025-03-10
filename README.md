@@ -69,12 +69,12 @@
 
 ### 📌 변환 결과 예시
 ✅ **Markdown 변환 결과**
-![Markdown 변환 결과](img/md변환%20결과(markdown)_1(blur).png)
-![Markdown 변환 결과](img/md변환%20결과(markdown)_2(blur).png)
+![Markdown 변환 결과](img/md변환 결과(markdown)_1(blur).png)
+![Markdown 변환 결과](img/md변환 결과(markdown)_2(blur).png)
 
 ✅ **HTML 변환 결과**
-![HTML 변환 결과](img/md변환%20결과(html)_1(blur).png)
-![HTML 변환 결과](img/md변환%20결과(html)_2(blur).png)
+![HTML 변환 결과](img/md변환 결과(html)_1(blur).png)
+![HTML 변환 결과](img/md변환 결과(html)_2(blur).png)
 
 ---
 
