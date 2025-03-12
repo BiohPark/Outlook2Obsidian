@@ -26,7 +26,7 @@ Public Sub config(vaultPathToSaveFileTo As String, personNameStartChar As String
     ' Make sure this is the absolute path where you want your files to be sent to
     ' !IMPORTANT! make sure you have a trailing backslash at the end of the path `\`
     ObsidianFolder = "D:\backup_archive\obsidian archive\"
-    baseFolder = "Attached\__emails__\"
+    baseFolder = "800 Attached\810 emails\"
     vaultPathToSaveFileTo = ObsidianFolder & baseFolder
         
     '================================================'

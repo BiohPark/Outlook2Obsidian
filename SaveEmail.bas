@@ -114,17 +114,20 @@ Sub ExtractEmail_MarkDown()
         resultString = "---" & vbCrLf
         
         ' Add tags
-        resultString = resultString & "tags:" & vbCrLf
-        
-        ' Add classification and optional properties
-        resultString = resultString & "ITSM:" & vbCrLf
-        resultString = resultString & "시스템:" & vbCrLf
-        resultString = resultString & "요청일시: " & Format(oMail.SentOn, "yyyy-MM-dd HH:mm") & vbCrLf
-        resultString = resultString & "담당자: """ & sender & """" & vbCrLf
+        resultString = resultString & "tags:  " & """SOURCE/MAIL today""" & vbCrLf
+        resultString = resultString & "Index: " & vbCrLf
+        resultString = resultString & "title: """ & temporarySubjectLineString & """" & vbCrLf
+        resultString = resultString & "aliases:" & vbCrLf
+        resultString = resultString & "create: " & Format(Now, "yyyy-MM-dd HH:mm") & vbCrLf
+        resultString = resultString & "수신일시: " & Format(oMail.SentOn, "yyyy-MM-dd HH:mm") & vbCrLf
+        resultString = resultString & "요청일자: " & Format(oMail.SentOn, "yyyy-MM-dd") & vbCrLf
         resultString = resultString & "요청자: """ & sender & """" & vbCrLf
-        resultString = resultString & "요청팀: " & vbCrLf
-        resultString = resultString & "요청명: """ & temporarySubjectLineString & """" & vbCrLf
-        resultString = resultString & "경로: 메일" & vbCrLf
+        resultString = resultString & "진행상태: " & "대기" & vbCrLf
+        resultString = resultString & "D-day: """ & vbCrLf
+        resultString = resultString & "완료일: """ & vbCrLf
+        resultString = resultString & "ITSM: """ & vbCrLf
+        resultString = resultString & "ITSM_URL: """ & vbCrLf
+        
         ' Convert recipients to YAML list
         ' resultString = resultString & "to:" & vbCrLf
         ' For Each recip In recips
@@ -173,7 +176,7 @@ Sub ExtractEmail_MarkDown()
         ' ------------------------------------------------- Body Start --------------------------------------------------------------
         ' (6) 소스 표시
         resultString = resultString & "![[" & temporarySubjectLineString & ".html]]" & vbCrLf
-        resultString = resultString & "- [ ] [[" & mName & "]] (" & sender & ") " & vbCrLf
+        resultString = resultString & "[[" & mName & "]]" & vbCrLf
         
         ' (7) 영역 포시
         resultString = resultString & "# Note" & vbCrLf & vbCrLf & vbCrLf & vbCrLf
@@ -349,15 +352,21 @@ Sub ExtractEmail_html()
         
         ' Add tags
         resultString = resultString & "tags:" & vbCrLf
-        resultString = resultString & "ITSM:" & vbCrLf
-        resultString = resultString & "시스템:" & vbCrLf
+        
         ' Add classification and optional properties
-        resultString = resultString & "요청일시: " & Format(oMail.SentOn, "yyyy-MM-dd HH:mm") & vbCrLf
-        resultString = resultString & "담당자: """ & sender & """" & vbCrLf
+        resultString = resultString & "tags:  " & """SOURCE/MAIL today""" & vbCrLf
+        resultString = resultString & "Index: " & vbCrLf
+        resultString = resultString & "title: """ & temporarySubjectLineString & """" & vbCrLf
+        resultString = resultString & "aliases:" & vbCrLf
+        resultString = resultString & "create: " & Format(Now, "yyyy-MM-dd HH:mm") & vbCrLf
+        resultString = resultString & "수신일시: " & Format(oMail.SentOn, "yyyy-MM-dd HH:mm") & vbCrLf
+        resultString = resultString & "요청일자: " & Format(oMail.SentOn, "yyyy-MM-dd") & vbCrLf
         resultString = resultString & "요청자: """ & sender & """" & vbCrLf
-        resultString = resultString & "요청팀: " & vbCrLf
-        resultString = resultString & "요청명: """ & temporarySubjectLineString & """" & vbCrLf
-        resultString = resultString & "경로: 메일" & vbCrLf
+        resultString = resultString & "진행상태: " & "대기" & vbCrLf
+        resultString = resultString & "D-day: """"" & vbCrLf
+        resultString = resultString & "완료일: """"" & vbCrLf
+        resultString = resultString & "ITSM: """"" & vbCrLf
+        resultString = resultString & "ITSM_URL: """"" & vbCrLf
         ' Convert recipients to YAML list
         ' resultString = resultString & "to:" & vbCrLf
         ' For Each recip In recips
@@ -406,7 +415,7 @@ Sub ExtractEmail_html()
         ' ------------------------------------------------- Body Start --------------------------------------------------------------
         ' (6) 소스 표시
         resultString = resultString & "![[" & temporarySubjectLineString & ".html]]" & vbCrLf
-        resultString = resultString & "- [ ] [[" & mName & "]] (" & sender & ") " & vbCrLf
+        resultString = resultString & "[[" & mName & "]]" & vbCrLf
         
         ' (7) 영역 포시
         resultString = resultString & "# Note" & vbCrLf & vbCrLf & vbCrLf & vbCrLf
